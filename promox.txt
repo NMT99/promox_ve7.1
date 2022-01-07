@@ -1,0 +1,12 @@
+ifup vmbr0
+nano /etc/network/interfaces
+cai prometheus + grafana len 1 may dc
+con node_exporter cai tren may can theo doi
+
+rename :
+nano /etc/hosts
+nano /etc/hostname
+nano /etc/postfix/main.cf
+rm -rf /etc/pve/nodes/oldhostname/
+reboot
+nano /etc/issue --> Proxmox welcome message
