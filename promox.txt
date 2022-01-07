@@ -10,3 +10,5 @@ nano /etc/postfix/main.cf
 rm -rf /etc/pve/nodes/oldhostname/
 reboot
 nano /etc/issue --> Proxmox welcome message
+
+doi ip trong nano /etc/hosts thi welcome message tu dong doi sau khi reboot
